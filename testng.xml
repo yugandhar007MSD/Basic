@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="XYZ">
+		<classes>
+			<class name="TestNG.Example3" />
+		</classes>
+	</test>
+
+	<test name="XYZb">
+		<classes>
+			<class name="TestNG.Example2" />
+		</classes>
+	</test>
+
+	<test name="XYZbc">
+		<classes>
+			<class name="TestNG.Example1">
+				<methods>
+					<exclude name="secondTest"/>
+					<include name="add"/>
+					<include name="login.*"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 
