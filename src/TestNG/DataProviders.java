@@ -18,9 +18,9 @@ public class DataProviders {
 	public Object[][] testDta() {
 	Object[][] data = new Object[2][3];
 	
-	data [0][0] = "a";
-	data [0][1] = "b";
-	data [0][2] ="ab";
+	data [0][0] = "abcdef";
+	data [0][1] = "bcdef";
+	data [0][2] ="abcdef";
 	data [1][0] = "c";
 	data [1][1] = "d";
 	data [1][2] = "cd";
